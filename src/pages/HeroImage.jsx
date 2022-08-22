@@ -5,7 +5,7 @@ import { ArrowSmDownIcon } from '@heroicons/react/outline'
 const HeroImage = () => {
   return (
     <div className='w-full flex flex-col justify-between overflow-hidden'>
-      <div className='bg-[#140624] sm:max-w-[1980px] h-[370px] md:h-[520px] xl:h-[500px] 2xl:h-[450px] w-full relative mt-24'>
+      <div className='bg-[#140624] sm:max-w-[1980px] h-[370px]  md:h-[520px] xl:h-[500px] 2xl:h-[450px] w-full relative mt-24'>
         <div className='grid md:grid-cols-3 justify-between md:mx-[30px] lg:ml-[100px] 2xl:ml-[300px] rounded-xl'>
           <div className='flex-col col-start-1 col-end-3 mx-6 md:mx-16 mt-16 md:mt-28 2xl:mt-20'>
               <h1 className='md:text-3xl xl:text-5xl font-bold text-white'>BUY & SELL DIGITAL NFT token</h1>
