@@ -1,20 +1,32 @@
 import React from 'react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const NavBar = () => {
 
     const [openMenu, setOpenMenu] = useState(false)
+    const [scroll, setScroll] = useState(false)
 
     const handleMenu = () => {
         setOpenMenu(!openMenu)
-    }
+    };
+
+      useEffect(() => {
+        window.onscroll = function() {
+          if (window.scrollY > 0) {
+            setScroll(true);
+          } else {
+            setScroll(false);
+          }
+        };
+      }, [scroll]);
+
 
     return (
-        <div className='w-screen h-16 lg:h-24 z-10 bg-white fixed'>
+        <div className={scroll ? 'w-screen lg:h-24 z-10 bg-white fixed drop-shadow-lg' : 'w-screen lg:h-24 z-10 bg-white fixed'}>
             <div className='relative w-full h-full'>
-            <div className='flex justify-between mt-2 xl:mt-0 mx-4 px-2 md:mx-[70px]  xl:mx-[150px] 2xl:mx-[300px]'>
+            <div className='flex justify-between mt-2 xl:mt-0 mx-4 py-2 px-2 md:mx-[70px]  xl:mx-[150px] 2xl:mx-[300px]'>
             <div className='flex w-full'>
                 <h6 className='text-4xl mt-3 xl:mt-0 lg:text-6xl font-normal'>P<span className='text-indigo-800'>J</span></h6>
                 <div className='flex mt-5'>

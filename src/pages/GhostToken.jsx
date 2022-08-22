@@ -26,7 +26,7 @@ const GhostToken = () => {
                                 <ArrowSmDownIcon className='w-7 text-white' />
                             </div>
                             <div className='flex-cols flex-wrap w-[80%]'>
-                                <h1 className='text-white text-xl'>Guaranteed Transaction Security</h1>
+                                <h1 className='text-white text-xl'>Easy And Profitable Payment</h1>
                                 <p className='text-slate-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                             </div>
                         </div>
