@@ -11,10 +11,6 @@ const HeroImage = () => {
               <h1 className='md:text-3xl xl:text-5xl font-bold text-white'>BUY & SELL DIGITAL NFT token</h1>
               <p className='w-[90%] text-slate-400  my-6 text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur consectetur ab asperiores, ad esse.</p>
               <button className='border-none text-white py-4 bg-blue-300'>Get Started Now</button>
-            
-            {/* <div className='md:hidden mt-[-40px] flex justify-center'>
-              <img className='w-[40%] mt-10' src={image1} alt="/" />
-            </div> */}
             <div className='flex mt-4  md:mt-5 2xl:mt-7 h-[35%] w-full '>
               <div className='flex items-center'>
                 <div className='lg:w-10 lg:h-10 w-7 h-7 rounded-full flex items-center justify-center bg-[#95DED0]'>
