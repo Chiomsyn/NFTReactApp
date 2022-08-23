@@ -26,7 +26,7 @@ export const NavBar = () => {
     return (
         <div className={scroll ? 'w-screen lg:h-24 z-10 bg-white fixed drop-shadow-lg' : 'w-screen lg:h-24 z-10 bg-white fixed'}>
             <div className='relative w-full h-full'>
-            <div className='flex justify-between mt-2 xl:mt-0 mx-4 py-2 px-2 md:mx-[70px]  xl:mx-[150px] 2xl:mx-[300px]'>
+            <div className='flex justify-between mt-2 xl:mt-0 mx-4 py-2 px-2 md:mx-[70px] items-center xl:mx-[150px] 2xl:mx-[300px]'>
             <div className='flex w-full'>
                 <h6 className='text-4xl mt-3 xl:mt-0 lg:text-6xl font-normal'>P<span className='text-indigo-800'>J</span></h6>
                 <div className='flex mt-5'>
